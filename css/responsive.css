@@ -1,0 +1,24 @@
+@media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-btn{
+        margin-top: 5px;
+        width: 190px;
+        height: 50px
+    }
+
+    .main-manga {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .manga-description{
+        width: 50%;
+    }
+}
